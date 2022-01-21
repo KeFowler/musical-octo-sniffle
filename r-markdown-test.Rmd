@@ -1,0 +1,21 @@
+---
+title: "r-markdown practice"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Read in the ladybirds data, take a little look at it, then make a plot
+```{r}
+library(dplyr)
+
+ladybirds <- read.csv('ladybirds.csv')
+
+str(ladybirds)
+
+boxplot(number ~ Habitat, data=ladybirds)
+```
+
+
