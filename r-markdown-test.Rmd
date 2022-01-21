@@ -18,5 +18,8 @@ str(ladybirds)
 
 boxplot(number ~ Habitat, data=ladybirds)
 ```
-Isn't it bland. 
+Isn't it bland.
+
+Hahaha
+I hope your wonderful musical octopus recovers from their cold soon!
 
