@@ -6,8 +6,9 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+# Ladybirds
 
-Read in the ladybirds data, take a little look at it, then make a plot
+Read in the ladybirds data, take a little look at it, then make a boxplot.
 ```{r}
 library(dplyr)
 
@@ -17,5 +18,5 @@ str(ladybirds)
 
 boxplot(number ~ Habitat, data=ladybirds)
 ```
-
+Isn't it bland. 
 
