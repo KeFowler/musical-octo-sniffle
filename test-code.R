@@ -3,4 +3,6 @@
 
 print('hello')
 
-#I am adding to this script
+#Make an x variable
+
+x <- 1:10
